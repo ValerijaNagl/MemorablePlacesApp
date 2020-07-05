@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MemorablePlacesApp</string>
+    <string name="title_activity_maps">MemorablePlacesApp</string>
+    <string name="pretraga_string">Pretraži po naslovu/sadržaju</string>
+    <string name="naslov">Naslov</string>
+    <string name="sadrzaj">Sadržaj</string>
+    <string name="odustani">Odustani</string>
+    <string name="sacuvaj">Sačuvaj</string>
+    <string name="preskoci">Preskoči</string>
+    <string name="greska_za_unos">Sva polja moraju biti popunjena!</string>
+    <string name="nazad">Nazad</string>
+    <string name="exit">Exit</string>
+    <string name="poni_ti">Poništi</string>
+</resources>

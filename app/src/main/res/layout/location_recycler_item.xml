@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/box"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/item_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_title"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="13dp"/>
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="13dp"/>
+
+    <ImageView
+        android:id="@+id/markerIv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_title"
+        app:layout_constraintStart_toEndOf="@+id/item_title"
+        android:src="@drawable/marker"/>
+
+    <ImageView
+        android:id="@+id/deleteIv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/markerIv"
+        app:layout_constraintStart_toEndOf="@+id/item_content"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/delete"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
